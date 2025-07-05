@@ -69,12 +69,6 @@
     button:hover {
       background-color: #333;
     }
-    .confirmation {
-      margin-top: 20px;
-      font-size: 16px;
-      color: #2d862d;
-      display: none;
-    }
     footer {
       font-size: 12px;
       color: #bbb;
@@ -85,4 +79,22 @@
 </head>
 <body>
   <main>
-    <img src="cardi-logo.jpeg" alt="Cardi Logo" onerror="this.style.d
+    <img src="cardi-logo.jpeg" alt="Cardi Logo" onerror="this.style.display='none'" />
+    <h1>Power to Process</h1>
+    <div class="tagline">Smarter, Faster, Future-Focused</div>
+    <div class="coming-soon">
+      Our full platform is coming soon.<br />
+      Stay tuned.
+    </div>
+
+    <form action="https://formspree.io/f/xpwrewvk" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="text" name="company" placeholder="Company Name" />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <button type="submit">Notify Me</button>
+    </form>
+  </main>
+
+  <footer>© 2025 Cardi. All rights reserved.</footer>
+</body>
+</html>
